@@ -72,6 +72,9 @@
   <profiles>
     <profile>
       <id>spark-3.2</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <modules>
         <module>spark32</module>
       </modules>
